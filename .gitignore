@@ -1,0 +1,11 @@
+.env
+*.local
+*.log
+node_modules
+dist
+test-results
+playwright-report
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
