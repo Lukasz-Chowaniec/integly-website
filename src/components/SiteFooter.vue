@@ -18,7 +18,7 @@ const forgotPasswordUrl = panelUrl('/nie-pamietam-hasla')
         </div>
         <div class="site-footer-column">
           <h4>Contact</h4>
-          <a href="mailto:bok@integly.pl">bok@integly.pl</a>
+          <a href="mailto:contact@integly.pl">contact@integly.pl</a>
         </div>
         <div v-if="loginUrl && forgotPasswordUrl" class="site-footer-column">
           <h4>Account</h4>
