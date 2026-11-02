@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     question: 'Which inventory systems, stores and marketplaces are supported?',
-    answer: 'Integly connects to each system through a dedicated adapter, and not every system has one yet. Confirm your systems before planning a rollout.',
+    answer: 'Integly connects to each system through a dedicated adapter, and not every system has one yet. Contact bok@integly.pl to confirm your systems before planning a rollout.',
   },
   {
     question: 'How do new users get access?',
