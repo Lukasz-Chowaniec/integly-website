@@ -4,6 +4,10 @@ Wszystkie istotne zmiany w projekcie są dokumentowane w tym pliku.
 
 Format oparty na [Keep a Changelog](https://keepachangelog.com/pl/1.0.0/).
 
+## 2026-11-15 — nazwa DEV bez „www”
+
+- DEV w LAN: `dev.website.integly.lan` zamiast `dev.www.integly.lan` (właściciel: bez „www”; etykieta komponentu = folder `website`; na produkcji strona to `integly.pl`).
+
 ## [Unreleased]
 
 ### Dodane
