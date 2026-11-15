@@ -12,7 +12,8 @@ export default defineConfig(({ command, mode }) => {
   return {
     plugins: [vue()],
     appType: 'mpa',
-    server: { host: '0.0.0.0', port: 5167, strictPort: true },
+    // DEV w LAN (standard nazw 2026-11-15): nginx na .27 → 127.0.0.1:5167.
+    server: { host: '0.0.0.0', port: 5167, strictPort: true, allowedHosts: ['dev.www.integly.lan'] },
     preview: { host: '127.0.0.1', port: 5167, strictPort: true },
     build: {
       rollupOptions: {

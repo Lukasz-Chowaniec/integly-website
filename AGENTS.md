@@ -26,4 +26,4 @@ Wejście całego systemu: [`../platform-docs/AGENTS.md`](../platform-docs/AGENTS
 
 ## Porty i uruchomienie
 
-Dev `5167`, Playwright `4167` (rejestr `/home/lukasz/PhpstormProjects/_agents/PORTY.md`). Usługa `integly-website` (`platform-docs/environments/dev/systemd-files/`). Wdrożenie: README.
+Dev `5167`, Playwright `4167` (rejestr `/home/lukasz/PhpstormProjects/_agents/PORTY.md`). W LAN `http://dev.www.integly.lan` (od 2026-11-15, standard nazw; nginx na `.27` → `127.0.0.1:5167`, `server.allowedHosts` w `vite.config.ts`); strona nie woła API, więc nie ma proxy. Usługa `integly-website` (`platform-docs/environments/dev/systemd-files/`). Wdrożenie: README.
